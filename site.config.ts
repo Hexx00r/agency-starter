@@ -86,5 +86,4 @@ const config: SiteConfig = {
 
   currency: "AUD",
 };
-
-export default config;
+cd
