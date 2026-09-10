@@ -1,3 +1,4 @@
+TEST DEPLOY - if you can read this, Actions works.
 # agency-starter
 
 Reusable static site template for trade-service clients (pressure cleaning, etc.).
