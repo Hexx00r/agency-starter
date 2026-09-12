@@ -81,7 +81,8 @@ const config: SiteConfig = {
   ],
 
   quoteForm: {
-    webhookUrl: "https://example.com/REPLACE-WITH-YOUR-WORKER",
+    /** POST target — quote-relay Worker (logs to D1, forwards per-client). */
+    webhookUrl: "https://quote-relay.paulsunny.workers.dev/quote/demo",
   },
 
   currency: "AUD",
