@@ -44,6 +44,20 @@ a { color: var(--color-primary); }
   outline-offset: 2px;
 }
 
+/* --- Demo banner (template credit — ships on every demo) ----------------- */
+
+.demo-banner {
+  display: block;
+  padding: 0.4rem 1.25rem;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+.demo-banner:hover { filter: brightness(1.1); }
+
 /* --- Header (sticky, thumb-reachable call CTA) --------------------------- */
 
 .site-header {

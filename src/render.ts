@@ -71,6 +71,10 @@ export function renderSite(c: SiteConfig): string {
 </head>
 <body>
 
+  <a class="demo-banner" href="https://paulsunnydev.com" target="_blank" rel="noopener">
+    Demo site — built from my agency-starter template. Want one like this? paulsunnydev.com
+  </a>
+
   <header class="site-header">
     <a class="brand" href="#top">${esc(c.businessName)}</a>
     <a class="call-cta" href="tel:${esc(c.phone.replaceAll(" ", ""))}">Call ${esc(c.phone)}</a>

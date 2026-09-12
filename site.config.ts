@@ -45,7 +45,7 @@ export interface SiteConfig {
 const config: SiteConfig = {
   businessName: "Example Pressure Cleaning",
   tagline: "Driveways, decks & exteriors — spotless, guaranteed.",
-  phone: "+61 400 000 000",
+  phone: "0450 710 483",
   email: "quotes@example.com",
   serviceArea: "Sydney Metro",
 
@@ -76,7 +76,7 @@ const config: SiteConfig = {
     {
       before: "before-1.jpg",
       after: "after-1.jpg",
-      caption: "Concrete driveway — 2 hour turnaround",
+      caption: "Driveway clean — San Remo, VIC",
     },
   ],
 
